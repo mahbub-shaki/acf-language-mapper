@@ -102,10 +102,10 @@ Include a `LICENSE` file in your repository for best practice.
 ## 👨‍💻 Developer & Contact
 
 **Developed by:** MahbubShaki  
-
-🌐 **Live Demo (GitHub Pages):** [View Demo](https://mahbub-shaki.github.io/acf-language-mapper)  
+  
 🌐 **Upwork Profile:** [MahbubShaki on Upwork](https://www.upwork.com/freelancers/~015df70a23d7f58180)  
 📧 Email: mahbubshaki64@gmail.com
 
+---
 
 
