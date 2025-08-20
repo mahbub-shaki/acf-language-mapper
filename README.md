@@ -88,6 +88,10 @@ acf-language-mapper/
 
 ---
 
+> ⚠️ Note: This is a WordPress theme. To view or use it fully (with dynamic features like language switcher), you need a local WordPress environment (e.g., XAMPP, WAMP, or a live server). GitHub Pages cannot run PHP, so dynamic features won't work there.
+
+---
+
 ## 📜 License
 
 This theme is open-source and free to use under the **MIT License**.  
