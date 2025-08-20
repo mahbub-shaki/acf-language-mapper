@@ -1,2 +1,3 @@
-# acf-language-mapper
-Modular WordPress theme built with Bootstrap 5, featuring dynamic section-based layouts and an ACF Free-powered English ↔ বাংলা language switcher. Clean, extendable, and ready for production.
+A modular WordPress theme built with Bootstrap 5 and ACF Free. Features a clean structure, dynamic page templates, and bilingual page switcher support.
+WordPress Theme with Bootstrap 5 & ACF Free (Bilingual Ready)
+
