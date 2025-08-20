@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # acf-language-mapper
 
 ![WordPress](https://img.shields.io/badge/WordPress-6.x-blue?style=for-the-badge&logo=wordpress)
@@ -32,7 +32,7 @@ This theme demonstrates a **custom multilingual switcher** (English ↔ বা�
 ---
 
 ## 📂 Theme File Structure
-
+```text
 acf-language-mapper/
 │── inc/ # Future modular PHP files (.gitkeep included)
 │── screenshots/ # Documentation screenshots
@@ -49,6 +49,7 @@ acf-language-mapper/
 │── style.css
 │── README.md
 
+```
 ---
 
 ## 🖼️ Screenshots
@@ -101,8 +102,6 @@ Include a `LICENSE` file in your repository for best practice.
 🌐 **Live Demo (GitHub Pages):** [View Demo](https://mahbub-shaki.github.io/acf-language-mapper)  
 🌐 **Upwork Profile:** [MahbubShaki on Upwork](https://www.upwork.com/freelancers/~015df70a23d7f58180)  
 📧 Email: mahbubshaki64@gmail.com
-=======
-A modular WordPress theme built with Bootstrap 5 and ACF Free. Features a clean structure, dynamic page templates, and bilingual page switcher support.
-WordPress Theme with Bootstrap 5 & ACF Free (Bilingual Ready)
 
->>>>>>> 57b3c7320cef1517707e84966d340c38589e27ae
+
+
