@@ -16,7 +16,7 @@ This theme demonstrates a **custom multilingual switcher** (English ↔ বা�
 ![Language Switch Demo](screenshots/demo-language-switch.gif)
 
 ---
-
+ 
 ## ✨ Key Features
 
 - ✅ **Bootstrap 5** fully integrated  
