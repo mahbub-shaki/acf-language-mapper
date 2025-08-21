@@ -52,6 +52,33 @@ acf-language-mapper/
 ```
 ---
 
+## 🗂️ Alternate Language Feature (ACF Free)
+
+This theme includes a **language switch button** that automatically shows on pages with an alternate language assigned.
+
+### How to Set It Up:
+1. Install **Advanced Custom Fields (Free version)** plugin  
+2. Go to **Custom Fields → Add New Field Group**  
+3. Create a field with these settings:  
+   - **Field Label:** `Alternate Language Page`  
+   - **Field Name:** `alternate_language_page`  
+   - **Field Type:** `Page Link`  
+   - **Filter by Post Type:** `Page`  
+   - **Filter by Post Status:** `Published`  
+   - **Allow Multiple:** ❌ Off  
+   - **Conditional Logic:** ❌ Off  
+4. Assign the field group to **Pages**  
+5. Edit a page and select its **alternate language page**  
+
+### Output:
+- On the front-end, the theme automatically displays a **Bootstrap-styled language switch button** if an alternate page is selected.  
+- Button label changes based on the current page slug:  
+  - Example:  
+    ```php
+    <a class="btn btn-outline-primary ms-3" href="URL_OF_ALTERNATE_PAGE">Switch to English / Switch to বাংলা</a>
+    ```
+  ---  
+
 ## 🖼️ Screenshots
 
 ### Language Switch in Action
