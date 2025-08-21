@@ -54,30 +54,56 @@ acf-language-mapper/
 
 ## 🗂️ Alternate Language Feature (ACF Free)
 
-This theme includes a **language switch button** that automatically shows on pages with an alternate language assigned.
+This theme includes a **dynamic language switcher button** that automatically appears on pages with an assigned alternate language.  
+It is fully **Bootstrap 5 styled** and seamlessly integrates with WordPress pages using **ACF Free**.
 
-### How to Set It Up:
-1. Install **Advanced Custom Fields (Free version)** plugin  
-2. Go to **Custom Fields → Add New Field Group**  
-3. Create a field with these settings:  
-   - **Field Label:** `Alternate Language Page`  
-   - **Field Name:** `alternate_language_page`  
-   - **Field Type:** `Page Link`  
-   - **Filter by Post Type:** `Page`  
-   - **Filter by Post Status:** `Published`  
-   - **Allow Multiple:** ❌ Off  
-   - **Conditional Logic:** ❌ Off  
-4. Assign the field group to **Pages**  
-5. Edit a page and select its **alternate language page**  
+---
 
-### Output:
-- On the front-end, the theme automatically displays a **Bootstrap-styled language switch button** if an alternate page is selected.  
-- Button label changes based on the current page slug:  
+### 🔧 Setup Instructions
+
+Follow these steps to configure the alternate language feature:
+
+1. **Install ACF (Free Version)**
+   - Navigate to **Plugins → Add New → Search for "Advanced Custom Fields" → Install & Activate**.
+
+2. **Create the Field Group**
+   - Go to **Custom Fields → Add New Field Group**.
+   - Name it: **Alternate Language**.
+
+3. **Add the "Alternate Language Page" Field**
+   | Setting | Value |
+   |---------|-------|
+   | **Field Label** | `Alternate Language Page` |
+   | **Field Name** | `alternate_language_page` |
+   | **Field Type** | `Page Link` |
+   | **Filter by Post Type** | `Page` |
+   | **Filter by Post Status** | `Published` |
+   | **Allow Multiple** | ❌ Off |
+   | **Conditional Logic** | ❌ Off |
+
+4. **Assign Field Group**
+   - Location: **Show this field group if Post Type is equal to Page**.
+
+5. **Link Pages**
+   - Edit a page → select its **alternate language page** in the field.
+
+---
+
+### 🌐 Front-End Output
+
+Once set up, the theme automatically renders a **Bootstrap-styled button** for switching languages.  
+
+- **Dynamic Button Label:** Changes based on current page slug  
   - Example:  
-    ```php
-    <a class="btn btn-outline-primary ms-3" href="URL_OF_ALTERNATE_PAGE">Switch to English / Switch to বাংলা</a>
-    ```
-  ---  
+    - On `বাংলা` page → shows `Switch to English`  
+    - On `English` page → shows `Switch to বাংলা`
+
+```php
+<a class="btn btn-outline-primary ms-3" href="URL_OF_ALTERNATE_PAGE">
+    Switch to English / Switch to বাংলা
+</a>
+ ```
+ ---
 
 ## 🖼️ Screenshots
 
